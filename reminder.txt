@@ -1,7 +1,0 @@
-1.	Add a weight configuration option to the logistic regression module.
-2.	Add an Offset option, which supports fixing the model coefficient corresponding to the specified variable to 1 or a specific value, the above two will adjust oversampling in binary logistic model.
-3.	Compare the model runtime of the same dataset in both SAS and Python environments.
-4.	Support direct input of variable interaction terms (e.g., X1*X2) during regression modeling.
-5.	Put a data check before regression estimation: output a corresponding variable abnormality alert when the variables involved in the regression equation contain missing values or infinite values.
-6.	Optimize the variable rules for Stepwise regression: Set the Initial list as the "mandatory included variable list" and the remove list as the "mandatory excluded variable list"—both remain fixed throughout the regression process.
-7.	Compare the variables selected by Stepwise regression with those selected by models such as XGBoost.
